@@ -1,0 +1,6 @@
+.navbar-logo {
+  max-width: 207px;
+  @include media-breakpoint-down(md) {
+    max-width: 170px;
+  }
+}

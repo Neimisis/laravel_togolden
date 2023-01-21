@@ -1,0 +1,34 @@
+.company {
+    a {
+        text-decoration: none;
+    }
+}
+.company__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.company__field {
+    color: #d2e2ea;
+}
+.company__delete {
+    color: #fd7679;
+    transition: color 0.15s ease-in-out;
+    &:hover {
+        color: #ff9c9d;
+    }
+}
+.company__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.company__comments {
+    padding: 0;
+}
+.comments {
+    list-style-type: none;
+    word-break: break-all;
+}
